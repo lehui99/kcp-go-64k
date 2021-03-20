@@ -33,7 +33,7 @@ const (
 	cryptHeaderSize = nonceSize + crcSize
 
 	// maximum packet size
-	mtuLimit = 1500
+	mtuLimit = 65507
 
 	// accept backlog
 	acceptBacklog = 128
